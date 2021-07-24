@@ -1,0 +1,9 @@
+zone "arendabernhardyoas.com" IN {
+    type master;
+    file "/etc/bind/forward.arendabernhardyoas.com";
+};
+
+zone "17.17.172.in-addr.arpa" IN {
+    type master;
+    file "/etc/bind/reverse.17.17.172";
+};
