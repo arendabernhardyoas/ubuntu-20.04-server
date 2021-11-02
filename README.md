@@ -288,6 +288,13 @@ Verify configurations<br>
 ![mail-5](./images/mail-5.PNG)
 ![mail-6](./images/mail-6.PNG)
 
+### Container Docker
+Install container<br>
+`sudo apt-get install docker.io`<br>
+`sudo usermod -aG docker aby`<br>
+![docker-1](./images/docker-1.PNG)
+More container docker [here](https://github.com/arendabernhardyoas/container-docker).<br>
+
 ### Other Config
 Create SSL certificates self-sign<br>
 `sudo openssl genrsa -aes128 -out /etc/ssl/private/server.key 2048`<br>
@@ -302,4 +309,6 @@ Create SSL certificates self-sign<br>
 **NOTE:**<br>
 Download Ubuntu Server ARM Raspberry Pi [here](https://ubuntu.com/download/raspberry-pi).<br>
 Raspberry Pi 4 ARM 64-bit 4GB RAM<br>
+Download Ubuntu Server AMD64 [here](https://ubuntu.com/download/server).<br>
+VirtualBox 6.1.2X on Desktop Windows 8.1 Pro<br>
 MikroTik RB941-2nD
